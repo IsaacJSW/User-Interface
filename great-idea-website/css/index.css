@@ -74,13 +74,19 @@ body {
 }
 .topcontainer {
 	width: 800px;
-	height: 100px;
-	margin-top: 50px;
+	height: 50px;
+	z-index: 1000; 
+	background: blue; 
+	padding-top: 20px;
+	position: fixed;
+	
 }
 nav {
 	display: inline-block;
 	/* background: green; */
 	width: 80%;
+	
+	
 
 }
 
@@ -88,12 +94,25 @@ nav a {
 	vertical-align: top;
 	display: inline-block;
 	text-decoration: none;
-	color: gray;
+	color: black;
+	font-weight: bold;
 	/* background: blue; */
 	font-size: 16px;
 	width: 8.2%;
 	margin-right: 8.2%;
 }
+
+nav a:hover {
+	animation-name: underline;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	/* animation-direction: reverse;  */
+}
+
+@keyframes underline {
+	from {text-decoration: none;}
+	to {text-decoration: underline; }
+  }
 
 .logo {
 	/* background: yellow; */
