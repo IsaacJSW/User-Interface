@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+body {
+
+	/* background: pink; */
+	width: 800px;
+	margin: auto;
+}
+.topcontainer {
+	width: 800px;
+	height: 100px;
+	margin-top: 50px;
+}
+nav {
+	display: inline-block;
+	/* background: green; */
+	width: 80%;
+
+}
+
+nav a {
+	vertical-align: top;
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	/* background: blue; */
+	font-size: 16px;
+	width: 8.2%;
+	margin-right: 8.2%;
+}
+
+.logo {
+	/* background: yellow; */
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	bottom: 8px;
+}
+
+.headline {
+	display: inline-block;
+	width: 50%;
+	height: 20vh;
+	font-size: 64px;
+	text-align: center;
+	position: relative;
+	bottom: 70px;
+}
+
+.codesnippet {
+	display: inline-block;
+	width: 50%;
+}
+
+.mainsec {
+	border-bottom: 2px solid black;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+.features {
+	display: inline-block;
+	width: 45%;
+	margin-right: 10%;
+}
+
+.about {
+	display: inline-block;
+	width: 45%;
+}
+
+.middle-img {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+	
+	
+}
+
+.services {
+	display: inline-block;
+	width: 30%;
+	margin-right: 5%;
+}
+
+.product {
+	display: inline-block;
+	width: 30%;
+	margin-right: 5%;
+}
+
+.vision {
+	display: inline-block;
+	width: 30%;
+}
+
+.middletop {
+	margin-bottom: 20px;
+}
+
+.middlebottom {
+	margin-top: 20px;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+button {
+	background: white;
+	border: 1px solid black;
+	font-size: 16px;
+	padding: 10px 50px;
+}
